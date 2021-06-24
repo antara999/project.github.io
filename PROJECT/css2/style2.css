@@ -1,0 +1,422 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.upper{
+    background:rgba(0,0,0,0.7) url("../aboutUs3.png");
+    
+    height: fit-content;
+    background-position-x: center;
+    max-width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:darken;
+    background-attachment: fixed;
+    
+}
+.upper form input[type="submit"]
+{
+    align-items: center;
+   
+
+    padding: 8px;
+    background-color: royalblue;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    
+
+    
+
+}
+.upper-form{
+    display:flex;
+    width:fit-content;
+}
+
+.upper form input[type="submit"]:hover{
+    background: rgb(12, 2, 77);
+}
+.upper h1{
+    text-align: center;
+    font-size:40px;
+    color:whitesmoke;
+    background-color: rgb(27, 15, 104);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.upper .first{
+    background-color: rgba(0,0,0,0.7);
+    display: inline-block;
+    margin:10% 20% 20% 20%;
+    height: auto;
+    
+    padding: 25px;
+    
+    
+}
+.upper .first p{
+    
+
+    font-size: 20px;
+    color:seashell;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    color: seashell;
+    font-family:'Courier New', Courier, monospace ;
+    text-align: center;
+    
+    
+    
+}
+.down{
+    background: rgba(0,0,0,0.7) url("../bg4.png");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:100vw;
+    max-height: fit-content;
+
+}
+.down h1{
+    text-align: center;
+    font-size:40px;
+    color:whitesmoke;
+    background-color: rgb(27, 15, 104);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.down-div{
+    display: flex;
+    padding:15px;
+    margin-top:2%;
+    
+    
+}
+#img-tutor{
+    width:25%;
+    
+    border-radius: 150px;
+    margin-left:5%;
+
+
+}
+.sec-right {
+    
+    margin-left:5%;
+    
+}
+.sec-right p{
+    padding:2%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:floralwhite;
+    font-size: 20px;
+    
+}
+.down h1{
+    font-size: xx-large;
+    text-align: center;
+    background-color: rgb(27, 15, 104);
+    
+    color: snow;
+}
+.sec-next{
+    display:flex;
+
+    padding:15px;
+    flex-direction: row-reverse;
+    
+    margin-top: 2%;
+    
+    
+}
+#quiz{
+    
+    width:25%;
+    
+    margin-right: 5%;
+    border-radius: 150px;
+    
+
+}
+.sec-left{
+    margin-right: 20%;
+   
+
+
+}
+.sec-left p{
+   
+    padding:2%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:floralwhite;
+    font-size: 20px;
+    
+}
+
+.sec-third{
+    display: flex;
+    padding:15px;
+    margin-top:2%;
+    
+}
+#puzzle{
+    width:20%;
+    
+    border-radius: 120px;
+    margin-left:5%;
+ 
+}
+
+.third{
+    margin-left:5%; 
+}
+.third p{
+    padding:2%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:floralwhite;
+    font-size: 20px;
+}
+.sec-fourth{
+    display:flex;
+    padding:15px;
+    margin-top: 2%;
+    flex-direction: row-reverse;
+}
+#age{
+    width:25%;
+    
+    margin-right: 5%;
+    border-radius: 150px;
+    
+}
+.fourth-left{
+    margin-right: 20%;
+}
+.fourth-left p{
+    padding:2%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:floralwhite;
+    
+    font-size: 20px;
+}
+.curriculum{
+    background:rgba(0,0,0,0.7) url("../bg4.png");
+    height:fit-content;
+    max-width:100%;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+.curriculum h1{
+    font-size: xx-large;
+    text-align: center;
+    background-color: rgb(27, 15, 104);
+    
+    color: snow;
+}
+.curriculum .para p{
+    font-size: 20px;
+    
+    color: snow;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 5%;
+}
+.para{
+    width:50%;
+    display:inline-block;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left:5%;
+    margin-right: 5%;
+    width:auto;
+    
+    
+}
+.ages .para p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+
+}
+
+.column{
+    
+    float: left;
+    width:25%;
+    padding: 5px;
+}
+.row::after{
+    display: table;
+    clear: both;
+    
+}
+.column p{
+    text-align: center;
+}
+
+
+.pic{
+    
+    
+    width:100%;
+    border-radius: 200px;
+    
+}
+.column p{
+    font-size: 20px;
+    color: seashell;
+    padding: 10px;
+}
+.pic:hover{
+    transform: scale(1.1);
+}
+form input[type="submit"]
+{
+    background-color: royalblue;
+    color:white;
+    border:none;
+    justify-content: center;
+    margin-top:5%;
+    border-radius: 20px;
+    padding:10px;
+    margin-bottom: 2%;
+
+}
+.curriculum form input[type="submit"]:hover{
+    background-color: rgb(27, 15, 104);
+    cursor: pointer;
+}
+.ages .para{
+    font-size: 20px;
+    align:center;
+    color: snow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5%;
+}
+.ages{
+    background:rgba(0,0,0,0.7) url("../bg4.png");
+    height:max-content;
+    max-width:100%;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.ages h1{
+    font-size: xx-large;
+    text-align: center;
+    background-color: rgb(27, 15, 104);
+    
+    color: snow;
+}
+
+.ages form input[type="submit"]:hover{
+    background-color: rgb(27, 15, 104);
+    cursor: pointer;
+}
+.Contact-us h1{
+    font-size: xx-large;
+    text-align: center;
+    background-color: rgb(27, 15, 104);
+    
+    color: snow;
+
+}
+.form-input{
+    padding:5px 3px;
+    margin:14px 0;
+    width:70%;
+    font-size: 16px;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:2px solid grey;
+}
+.form{
+    width: 40%;
+    margin:auto;
+
+}
+.Contact-us{
+    background-color: rgb(199, 201, 202);
+}
+.Contact-us .contact-para{
+    width:100%;
+    margin:5px auto 5px auto;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Contact-us .btn{
+
+    background-color: royalblue;
+    padding:5px;
+    border:none;
+    color:seashell;
+}
+.Contact-us h3{
+    text-align: center;
+}
+.Contact-us p{
+    text-align: center;
+}
+.Contact-us .btn:hover{
+    background-color: rgb(27, 15, 104);
+    cursor: pointer;
+}
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width:50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.icons{
+    display:flex;
+    justify-content: center;
+    margin:5% auto auto;
+}
+.icons p{
+    font-size: medium;
+    text-align: center;
+    width:52%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+hr{
+    background-color:rgb(88, 82, 82);
+    margin:auto;
+    
+    
+}
+.foot{
+    padding:5px;
+    justify-content: center;
+    
+}
+
+  

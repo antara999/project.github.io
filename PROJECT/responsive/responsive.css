@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+}
+@media only screen and (max-width:1286px){
+    .navbar{
+       flex-direction: column;
+       transition: all 0.7s ease-out;
+       height: 200px;
+       
+        
+    }
+    .nav-list{
+        flex-direction: column;
+    
+    }
+    .nav-item{
+        padding:2px;
+    }
+    .line{
+        width:30px;
+        margin:3px 3px;
+        background-color: white;
+        height:3px;
+        align:right;
+
+        
+    }
+    .burger{
+        position:absolute;
+        top:15px;
+        right:5%;
+        cursor:pointer;
+    }
+    .navbar-right{
+        margin:auto;
+        text-align: center;
+    }
+    body{
+        
+        background-attachment: fixed;
+        
+        background-size: cover;
+        background-position: center center;
+       
+
+    }
+    .writer h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .writer p{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .writer{
+        position: absolute;
+        width:fit-content;
+        top: 5%;
+        right:30%;
+        padding:10px;
+        
+       
+    }
+    .n-visibility{
+        opacity: 0;
+
+    }
+    .nav-ht{
+        height: 60px;
+    }
+    .writer form input[type="submit"]{
+        
+        
+        
+        width:fit-content;
+        margin-bottom: 20px;
+        
+    }
+    .writer form input[type="submit"]:hover{
+        background-color: rgb(9, 26, 77);
+    }
+    .buttons{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    
+
+    
+} 

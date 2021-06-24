@@ -1,0 +1,155 @@
+@media only screen and (max-width:660px){
+    body{
+        overflow-x: hidden;
+        background-attachment: fixed;
+    }
+    
+    .upper{
+        height: 100%;
+        width:100%;
+        background-size: cover;
+        
+        
+    }
+    .upper .first p{
+        font-size: 15px;
+    }
+    .upper form input[type="submit"]{
+        margin:auto;
+    }
+    .down-div{
+        flex-direction: column;
+        
+
+    }
+    #img-tutor{
+        margin:auto;
+        width:50%;
+    }
+    .sec-next{
+        flex-direction: column;
+    }
+    #quiz{
+        margin:auto;
+        width:50%;
+    }
+    .sec-left{
+        margin :auto;
+    }
+    .sec-third{
+        flex-direction: column;
+    }
+    .third{
+        margin: auto;
+    }
+    
+    #puzzle{
+        width:50%;
+        margin:auto;
+    }
+    .sec-fourth{
+        flex-direction: column;
+    }
+    #age {
+        width: 50%;
+        margin: auto;
+    }
+    .fourth-left {
+        margin: auto;
+    }
+    .para{
+        margin:auto;
+        font-size: 15px;
+        padding: 15px;
+
+    }
+    .column p{
+        font-size: 15px;
+    }
+
+    
+    
+    .curriculum{
+        height: fit-content;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .down h2{
+        font-size: 20px;
+    }
+    .curriculum form{
+        margin: auto;
+        justify-content: center;
+    }
+    form input[type="submit"]{
+       margin-left: auto;
+       justify-content: center;
+       padding-bottom: 2%;
+    }
+    .ages{
+        height:fit-content;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .Contact-us .contact-para {
+        width: auto;
+        margin: 10px auto auto 10px;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .form{
+        width:fit-content;
+    }
+    .eduform{
+        margin: auto;
+    justify-content: center;
+    width: fit-content;
+    }
+    
+    
+    .icons p{
+        display:inline;
+    }
+    .third p{
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    }
+    .sec-right p{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+        font-size: 15px;
+    }
+    .sec-left p{
+        text-align: center;
+        
+        font-size: 15px;
+    }
+    .fourth-left p{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+        font-size: 15px;
+    }
+    .curriculum .para p {
+        
+        font-size: 15px;
+    }
+    .ages .para p{
+        
+        font-size: 15px;
+        
+    }
+    .icons p{
+        display:none;
+    }
+    .icons{
+        
+        padding-top:10%;
+    }
+
+        
+
+
+}
